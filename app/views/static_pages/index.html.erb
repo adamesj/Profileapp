@@ -1,0 +1,197 @@
+<section class="container-fluid" id="section1">
+    <p id="fname">Jimmy <span id="lname">Adames</span></p>
+    <p id="aspire">web developer</p>
+    <div class="row" id="profile">
+      <div class="col-sm-4 col-sm-push-7">
+        <%= image_tag('profile_picture.jpg', class: "img-reponsive", size: "400x300")%>
+        <hr>
+        <p id="img_text">Flannel retro craft beer helvetica. Selfies before they sold out cronut, lomo yr banjo direct trade flexitarian poutine. Humblebrag XOXO pork belly normcore health goth vinyl letterpress kinfolk chicharrones, keffiyeh sustainable hoodie quinoa master cleanse. Celiac messenger bag post-ironic tilde, irony green juice forage actually health goth plaid thundercats chicharrones.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid" id="section2">
+    <div class="container">
+      <h1 class="text-center" id="about_heading">About me</h1>
+      <div class="row">
+        <div class="col-sm-5">
+          <p class="text-left" id="intro_text">
+            I'm back in New York after spending three wonderful years in Japan teaching English as a second language.
+            <br>
+            I am now eagerly seeking a position where I can build upon the knowledge I've gained from the
+            Full Stack Web Developer course from <a href="https://careerfoundry.com/en/">CareerFoundry.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="text-center" id="skills_heading">Skills and Experience</h1>
+    </div>
+    <div class="container v-center" id="skills">
+      <div class="row">
+        <div class="col-sm-4">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <i class="fa fa-wrench fa-4x" aria-hidden="true"></i>
+                <h3>Frameworks</h3>
+                <p>Ruby on Rails</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <i class="fa fa-paint-brush fa-4x" aria-hidden="true"></i>
+                <h3>Front-End</h3>
+                <p>HTML5, CSS, SASS, jQuery</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <i class="fa fa-terminal fa-4x" aria-hidden="true"></i>
+              <h3>Testing</h3>
+              <p>RSpec, FactoryGirl</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <i class="fa fa-graduation-cap fa-4x" aria-hidden="true"></i>
+              <h3>Education</h3>
+              <p>SUNY Stony Brook Psychology/Sociology Major</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 text-center">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <i class="fa fa-code fa-4x" aria-hidden="true"></i>
+              <h3>Programming languages</h3>
+              <p>Ruby, Javascript</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <i class="fa fa-file-text fa-4x" aria-hidden="true"></i>
+              <h3>Resume</h3>
+              <div class="modal-button">
+                <button class="sqs-system-button sqs-editable-button" data-target="#myModal" data-toggle="modal" id="resume_button" type="button">Click to view</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container-fluid" id="section3">
+    <h1 class="text-center">Built with Ruby on Rails</h1>
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <div class="row">
+          <div class="work">
+            <div class="row" id="projects">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-1">
+                  <div class="bkg_img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+  </section>
+
+  <section id="section4">
+    <div class="container v-center">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Contact Me</h1>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-1">
+          <form name="contact_form" method="post" action="mail.php">
+            <div class="row form-group">
+              <div class="col-sm-3">
+                <input type="text" class="form-control" id="firstName" name="first_name" placeholder="First Name" required="">
+              </div>
+              <div class="col-sm-3">
+                <input type="text" class="form-control" id="middleName" name="middle_name" placeholder="Middle Name" required="">
+              </div>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="lastName" name="last_name" placeholder="Last Name" required="">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-sm-5">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="">
+              </div>
+              <div class="col-sm-5">
+                <input type="email" class="form-control" name="phone" placeholder="Phone" required="">
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-sm-10">
+                <textarea class="form-control" name="comments" rows="3" placeholder="Type your message here" maxlength="150"></textarea>
+              </div>
+            </div>
+            <div class="row form-group">
+              <div class="col-sm-10">
+                <button class="btn btn-default btn-lg pull-right">Submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="col-md-3 pull-right">
+          <address>
+            <strong>Address</strong><br>
+            242 Schaefer Street<br>
+            Brooklyn, NY 11207<br>
+            P: (347) 605-7360
+          </address>
+          <address>
+            <strong>Email</strong><br>
+            <a href="mailto:#">jimmy.adames@gmail.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid" id="section5">
+    <div class="row">
+        <!--fontawesome icons-->
+        <div class="col-sm-1 col-sm-offset-8 col-xs-4">
+            <a href="https://github.com/adamesj"><i class="fa fa-github fa-4x"></i></a>
+        </div>
+        <div class="col-sm-1 col-xs-4">
+            <a href="https://www.facebook.com/jimmy.adames.9"><i class="fa fa-facebook fa-4x"></i></a>
+        </div>
+        <div class="col-sm-1 col-xs-4">
+            <a href="https://twitter.com/Intricatelyme"><i class="fa fa-twitter fa-4x"></i></a>
+        </div>
+        <div class="col-sm-1 col-xs-4">
+            <a href="https://www.linkedin.com/in/jimmy-adames-75297338"><i class="fa fa-linkedin fa-4x"></i></a>
+        </div>
+    </div>
+  </section>
+
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h2 class="text-center">Resume</h2>
+        </div>
+        <div class="modal-body">
+          <embed id="modalembed" src="img/Jimmy_Resume.pdf">
+        </div>
+      </div>
+    </div>
+  </div>
