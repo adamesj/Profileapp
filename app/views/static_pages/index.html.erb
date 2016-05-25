@@ -5,7 +5,7 @@
       <div class="col-sm-4 col-sm-push-7">
         <%= image_tag('profile_picture.jpg', class: "img-reponsive", size: "400x300")%>
         <hr>
-        <p id="img_text">Flannel retro craft beer helvetica. Selfies before they sold out cronut, lomo yr banjo direct trade flexitarian poutine. Humblebrag XOXO pork belly normcore health goth vinyl letterpress kinfolk chicharrones, keffiyeh sustainable hoodie quinoa master cleanse. Celiac messenger bag post-ironic tilde, irony green juice forage actually health goth plaid thundercats chicharrones.</p>
+        <p id="img_text">Welcome to my site. I've been developing since November 2015, and really enjoy the concepts and techniques studied so far and yet to come. I'm trilingual, speaking both Spanish and Japanese along with English. I like video games, books (just got the game of thrones book collection!), sports (mainly basketball), and beer. Feel to have a look around, check out my apps, or leave me a message. Cheers.</p>
       </div>
     </div>
   </section>
@@ -14,13 +14,20 @@
     <div class="container">
       <h1 class="text-center" id="about_heading">About me</h1>
       <div class="row">
-        <div class="col-sm-5">
+        <div class="col-sm-6">
           <p class="text-left" id="intro_text">
             I'm back in New York after spending three wonderful years in Japan teaching English as a second language.
-            <br>
             I am now eagerly seeking a position where I can build upon the knowledge I've gained from the
-            Full Stack Web Developer course from <a href="https://careerfoundry.com/en/">CareerFoundry.com</a>
+            Full Stack Web Developer course from <a href="https://careerfoundry.com/en/">CareerFoundry.com</a>. Also,
+            here's a neat little map showing all the places I've been so far. Still got a few more to go...
           </p>
+        </div>
+        <div class="row">
+          <div class="col-sm-5">
+            <div style='width: 800px;'>
+              <div id="map" style='width: 500px; height: 200px;'></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -73,9 +80,7 @@
             <div class="col-sm-12 text-center">
               <i class="fa fa-file-text fa-4x" aria-hidden="true"></i>
               <h3>Resume</h3>
-              <div class="modal-button">
-                <button class="sqs-system-button sqs-editable-button" data-target="#myModal" data-toggle="modal" id="resume_button" type="button">Click to view</button>
-              </div>
+              <%= link_to button_tag('Click to view', class: "sqs-system-button sqs-editable-button", id: "resume_button", type: "button"), resume_path  %>
             </div>
           </div>
         </div>
@@ -181,17 +186,3 @@
         </div>
     </div>
   </section>
-
-  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-          <h2 class="text-center">Resume</h2>
-        </div>
-        <div class="modal-body">
-          <embed id="modalembed" src="img/Jimmy_Resume.pdf">
-        </div>
-      </div>
-    </div>
-  </div>

@@ -1,6 +1,13 @@
 class StaticPagesController < ApplicationController
+
   def index
   end
+
+  def embed(resume_url)
+    resume_id = resume_url.split("=").last
+    content_tag(:iframe, nil, src: "//resume.creddle.io/embed/#{resume_id}")
+  end
+
   def thank_you
   @f_name = params[:f_name]
   @l_name = params[:l_name]

@@ -11,6 +11,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
+gem 'prawn', '~> 2.1'
+gem 'gmaps4rails', '~> 2.1', '>= 2.1.2'
 
 group :production do
   gem 'pg'
