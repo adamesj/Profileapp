@@ -124,7 +124,7 @@ section {
 
 #section2 {
   background-color: #fff;
-  height: 800px;
+  height: 900px;
 }
 
 #section3 {
@@ -280,4 +280,8 @@ textarea {
 /* overlay animate out */
 .mfp-fade.mfp-bg.mfp-removing {
   opacity: 0;
+}
+
+div {
+  border-radius: 2px;
 }

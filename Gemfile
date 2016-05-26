@@ -13,6 +13,7 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'prawn', '~> 2.1'
 gem 'gmaps4rails', '~> 2.1', '>= 2.1.2'
+gem 'magnific-popup-rails', '~> 1.1'
 
 group :production do
   gem 'pg'
