@@ -7,45 +7,29 @@
   font-family: "Proxima Nova";
   src: url('/assets/proxima_nova.ttf')
 }
-.navbar-trans {
-  background-color:#2b2b2b;
-    color:#cdcdcd;
-    border-width:0;
+
+html {
+  min-height: 100%;
+  position: relative;
 }
 
-.navbar-trans .navbar-brand, .navbar-trans >.container-fluid .navbar-brand {
-    padding: 14px;
-    color:#47969D;
+body {
+  background: url("/assets/lighthouse.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-bottom: "60px";
 }
 
-.navbar-trans li>a:focus,.navbar-trans li.active {
-  background-color:#47969D;
-  color:#333;
+h4 {
+  text-align: center;
+  display: block;
 }
 
-.navbar-trans li>a:hover {
-  background-color:#47969D;
-  color:#fff;
-  opacity:0.5;
-}
-
-.navbar-trans a{
-    color:#cdcdcd;
-    letter-spacing:1px;
-}
-
-.navbar-trans .form-control:focus {
-  border-color: #eee;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
-}
-
-html,body {
-  height:100%;
-    background:center no-repeat fixed url("/assets/karate.jpg");
-    background-size: cover;
-    color:#444;
+.fa {
+  text-align: center !important;
+  display: block !important;
 }
 
 @media (min-width:768px) {
@@ -62,49 +46,10 @@ a:hover {
     color:#111;
 }
 
-.scroll-down {
-  position: absolute;
-  left: 50%;
-  bottom: 40px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
-  margin-left: -15px;
-  display: block;
-  padding: 7px;
-  text-align: center;
-  z-index:-1
+#profile {
+  padding: 100px;
 }
 
-.scroll-up {
-  position: fixed;
-  display: none;
-  z-index: 999;
-  bottom: 2em;
-  right: 2em;
-}
-
-.scroll-up a {
-  background-color: rgba(135, 135, 135, 0.5);
-  display: block;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  color: #fff;
-  font-size: 15px;
-  line-height: 30px;
-}
-
-section {
-  padding-top:70px;
-    padding-bottom:50px;
-    min-height:100%;
-    min-height:calc(100% - 0);
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
 
 @media (min-width:768px) {
     .v-center {
@@ -124,35 +69,52 @@ section {
 
 #section2 {
   background-color: #fff;
-  height: 900px;
+  height: 500px;
+}
+
+.institution {
+  display:block;
+  text-align: center;
+}
+
+.timeline hr {
+  width: 60%;
 }
 
 #section3 {
   background-color: rgba(0,0,0,0.9);
+  height: 400px;
+}
+
+.resume-box hr {
+  width: 60%;
 }
 
 #section4 {
   background-color: #f6f6f6;
   color:#444;
+  height: 500px;
 }
 
-#fname {
+#name_title {
+  position: relative;
+  left: 550px;
+  top: 150px;
+}
+
+#fname, #lname {
   font-size: 32px;
   position: relative;
-  left: 20px;
 }
 
 #lname {
   color: #47969D;
-  font-size: 32px;
-  position: relative;
 }
 
 #aspire {
   font-size: 16px;
   position: relative;
-  bottom: 23px;
-  left: 20px;
+  bottom: 15px;
 }
 
 #profile {
@@ -162,27 +124,6 @@ section {
 
 #intro_text {
   font-size: 16px;
-}
-
-#resume_button {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: 'Proxima Nova';
-  letter-spacing: 1px;
-  font-weight: 400;
-  padding: 10px 30px 10px 30px;
-  border-radius: 0;
-  background-color: transparent;
-  color: black;
-  border-width: 2px;
-  border-color: black;
-  position: relative;
-  }
-
-#resume_button:hover{
-  background-color: black;
-  color: white;
-  transition: 0.2s;
 }
 
 
@@ -195,39 +136,6 @@ h1 {
   top: 500px;
 }
 
-#map-container {
-   height: 400px;
-   border-radius: 16px 16px;
-   border-color: #fff;
-   border-style: solid;
-   box-shadow: 2px 2px 10px #B1B1B1;
-   margin-top: 25px;
-   border-width: 7px;
- }
- #map-canvas {
-   height: 384px;
-   width: 100%;
- }
-
-.bkg_img {
-  background-image: url("../img/ruby.png");
-  background-repeat: no-repeat;
-  height: 240px;
-  opacity: 0.2;
-  position: relative;
-  bottom: 20px;
-  right: 45px;
-}
-
-#ruby {
-  color: white;
-  position: relative;
-  top: 100px;
-  right: 10px;
-  font-family: 'Proxima Nova', sans-serif;
-  text-transform: uppercase;
-  font-size: 28px;
-}
 
 .info {
   position: absolute;
@@ -245,13 +153,23 @@ h1 {
   font-weight: 100;
 }
 
-#section5 {
+footer {
+  position:absolute;
+  bottom:0;
+  padding: 20px;
+  height:70px;
   background-color: #47969D;
   color: #f6f6f6;
-  min-height:130px;
-  padding-top:40px;
-  padding-bottom:40px;
+  width: 100%;
 }
+
+// #section5 {
+//   background-color: #47969D;
+//   color: #f6f6f6;
+//   min-height:130px;
+//   padding-top:40px;
+//   padding-bottom:40px;
+// }
 
 #footer_icons {
   color: white;
@@ -262,7 +180,7 @@ h1 {
 }
 
 #footer_signature {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 textarea {

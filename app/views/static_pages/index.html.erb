@@ -1,153 +1,47 @@
-<section class="container-fluid" id="section1">
+<div class="container-fluid" id="section1">
+  <div id="name_title">
     <p id="fname">Jimmy <span id="lname">Adames</span></p>
     <p id="aspire">web developer</p>
-    <div class="row" id="profile">
-      <div class="col-sm-4 col-sm-push-7">
-        <%= image_tag('profile_picture.jpg', class: "img-reponsive", size: "400x300")%>
-        <hr>
-        <p id="img_text">Welcome to my site. I grew up in a bilingual home and have always appreciated having the ability to communicate in different languages. I picked up a third language after graduating from University, and eventually became interested in Web Development. There are many languages in Web Development that enables me to create responsive web applications. I like video games, books (just got the game of thrones book collection!), sports (mainly basketball), and beer. Feel to have a look around, check out my apps, or leave me a message. Cheers.</p>
-      </div>
-    </div>
-  </section>
+  </div>
+
+  <div id="profile">
+    <%= image_tag('profile_picture.jpg', class: "img-reponsive", size: "310x250")%>
+    <hr>
+    <p id="img_text">
+      Welcome to my site. I grew up in a bilingual home and have always appreciated having the ability to communicate in different languages. I picked up a third language after graduating from University, and eventually became interested in Web Development. There are many languages in Web Development that enables me to create responsive web applications. I like video games, books (just got the game of thrones book collection!), sports (mainly basketball), and beer. Feel to have a look around, check out my apps, or leave me a message. Cheers.
+    </p>
+  </div>
+</div>
 
   <section class="container-fluid" id="section2">
     <div class="container container-wide">
       <h1 class="margin-b-50 text-center">Resume</h1>
-        <div class="row padding-lg">
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="resume-box">
-              <i class="fa fa-commenting-o fa-3x" aria-hidden="true"></i>
-              <h4><strong>About</strong> Me</h4>
-              <p>I'm back in New York after spending three wonderful years in Japan teaching English as a second language. I am now eagerly seeking a position where I can build upon the knowledge I've gained from the Full Stack Web Developer course from <a href="https://careerfoundry.com/en/">CareerFoundry.com</a>.</p>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="resume-box">
-              <i class="fa fa-laptop fa-3x" aria-hidden="true"></i>
-              <h4>My <strong>Specialities</strong></h4>
-              <!-- Speciality -->
-              <div class="speciality">
-                <span class="speciality-icon"><i class="text-muted-2x ti-layers-alt"></i></span>
-                <div class="speciality-content">
-                  <h5 class="margin-b-0">Front-End Development</h5>
-                  <p class="speciaity-description">HTML5, CSS, SASS, jQuery</p>
-                </div>
-              </div>
-                <!-- Speciality -->
-                <div class="speciality">
-                  <span class="speciality-icon"><i class="text-muted-2x ti-mobile"></i></span>
-                  <div class="speciality-content">
-                    <h5 class="margin-b-0">Back-end Development</h5>
-                    <p class="speciaity-description">Ruby on Rails</p>
-                  </div>
-                </div>
-              <!-- Speciality -->
-              <div class="speciality">
-                <span class="speciality-icon"><i class="text-muted-2x ti-desktop"></i></span>
-                <div class="speciality-content">
-                  <h5 class="margin-b-0">QA</h5>
-                  <p class="speciaity-description">Rspec, FactoryGirl</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="resume-box">
-              <i class="fa fa-language fa-3x" aria-hidden="true"></i>
-              <h4><strong>Language</strong> skills</h4>
-              <!-- Skill -->
-              <div class="skill">
-                <strong>Spanish</strong>
-                <div class="progress progress-animated">
-                  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
-                    <span>100%</span>
-                  </div>
-                </div>
-              </div>
-              <!-- Skill -->
-              <div class="skill">
-                <strong>English</strong>
-                <div class="progress progress-animated">
-                  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
-                    <span>100%</span>
-                  </div>
-                </div>
-              </div>
-              <!-- Skill -->
-              <div class="skill">
-                <strong>Japanese</strong>
-                <div class="progress progress-animated">
-                  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                    <span>70%</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-       </div>
-
-      <div class="row padding-lg">
+      <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-12">
-          <div class="resume-box">
-            <i class="fa fa-wrench fa-3x" aria-hidden="true"></i>
-            <h4><strong>Skills</strong> &amp; abilities</h4>
-            <div class="skill">
-              <strong>HTML5</strong>
-              <div class="progress progress-animated">
-                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                  <span>90%</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="skill">
-              <strong>CSS3</strong>
-                <div class="progress progress-animated">
-                  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                    <span>90%</span>
-                  </div>
-                </div>
-            </div>
-
-            <div class="skill">
-              <strong>JavaScript / jQuery</strong>
-                <div class="progress progress-animated">
-                  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                    <span>90%</span>
-                  </div>
-                </div>
-            </div>
-
-            <div class="skill">
-              <strong>Ruby on Rails</strong>
-                <div class="progress progress-animated">
-                  <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                    <span>70%</span>
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="resume-box">
             <i class="fa fa-book fa-3x" aria-hidden="true"></i>
             <h4><strong>Education</strong></h4>
+            <br>
             <div class="timeline">
-              <div class="timeline-event te-primary">
-                <span class="event-description"><strong>CareerFoundry</strong></span><br>
-                <span class="event-date">Nov 2015 - May 2016</span><br>
-                <span class="event-name">Full Stack Web Developer</span>
+              <div class="institution">
+                <span class="event-description text-center"><strong>Startup Institute</strong></span><br>
+                <span class="event-date text-center">Oct 2016 - Dec 2016</span><br>
+                <span class="event-name text-center">Web Development Track</span>
               </div>
 
               <hr>
 
-              <div class="timeline-event te-primary">
-                <span class="event-date">Sep 2004 - Aug 2009</span><br>
+              <div class="institution">
+                <span class="event-description text-center"><strong>CareerFoundry</strong></span><br>
+                <span class="event-date text-center">Nov 2015 - May 2016</span><br>
+                <span class="event-name text-center">Web Development (Online)</span>
+              </div>
+
+              <hr>
+
+              <div class="institution">
                 <span class="event-description"><strong>SUNY Stony Brook</strong></span><br>
+                <span class="event-date">Sep 2004 - Aug 2009</span><br>
                 <span class="event-name">Bachelor of Arts Psychology</span><br>
                 <span class="event-name">Bachelor of Arts Sociology</span>
               </div>
@@ -155,47 +49,70 @@
           </div>
         </div>
 
-        <div class="col-md-5 col-sm-6 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="resume-box">
-            <i class="fa fa-play-circle-o fa-3x" aria-hidden="true"></i>
-            <h4><strong>Hobbies</strong> &amp; Interests</h4>
-            <ul class="list-inline">
-              <li>
-                <div class="icon-box text-center">
-                  <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-music-alt"></i></span>
-                  <span class="title">Music</span>
+            <i class="fa fa-laptop fa-3x" aria-hidden="true"></i>
+            <h4><strong>Developer Toolbox</strong></h4>
+            <br>
+            <!-- Speciality -->
+            <div class="speciality">
+              <span class="speciality-icon"><i class="text-muted-2x ti-layers-alt"></i></span>
+              <div class="speciality-content">
+                <h5 class="margin-b-0 text-center">Front-End</h5>
+                <p class="specialty-description text-center">HTML5, CSS, SASS, JavaScript, jQuery</p>
+              </div>
+            </div>
+              <!-- Speciality -->
+              <div class="speciality">
+                <span class="speciality-icon"><i class="text-muted-2x ti-mobile"></i></span>
+                <div class="speciality-content">
+                  <h5 class="margin-b-0 text-center">Back-End</h5>
+                  <p class="specialty-description text-center">Ruby on Rails</p>
                 </div>
-              </li>
+              </div>
+            <!-- Speciality -->
+            <div class="speciality">
+              <span class="speciality-icon"><i class="text-muted-2x ti-desktop"></i></span>
+              <div class="speciality-content">
+                <h5 class="margin-b-0 text-center">QA</h5>
+                <p class="specialty-description text-center">Rspec, Capybara</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-              <li>
-                <div class="icon-box text-center">
-                  <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-camera"></i></span>
-                  <span class="title">Video Games</span>
-                </div>
-              </li>
 
-              <li>
-                <div class="icon-box text-center">
-                  <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="ti-map-alt"></i></span>
-                  <span class="title">Basketball</span>
-                </div>
-              </li>
-            </ul>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="resume-box">
+            <i class="fa fa-language fa-3x" aria-hidden="true"></i>
+            <h4><strong>Foreign Languages Spoken</strong></h4>
+            <br>
+            <!-- Skill -->
+            <div class="skill">
+              <p class="text-center">Spanish</p>
+            </div>
+            <!-- Skill -->
+            <div class="skill">
+              <p class="text-center">Japanese</p>
+            </div>
           </div>
 
-          <i class="fa fa-plane fa-3x" aria-hidden="true"></i>
-          <h4><strong>Travel</strong></h4>
-            <div style='width: 500px;'>
-             <div id="map" style='width: 500px; height: 250px;'></div>
-            </div>
+
+          <div class="resume-box">
+            <hr>
+            <i class="fa fa-play-circle-o fa-3x" aria-hidden="true"></i>
+            <h4><strong>Hobbies</strong> &amp; Interests</h4>
+            <br>
+            <p class="specialty-description text-center">Music, Video Games, Basketball, Martial Arts, Reading</p>
+          </div>
         </div>
-      </div> <!--end of second row-->
+      </div>
     </div>
   </section>
 
   <section id="section3">
     <div class="container">
-      <h1 class="text-left">Built with Ruby on Rails</h1>
+      <h1 class="text-center">Projects</h1>
       <div class="row">
         <div class="col-sm-2">
           <div class="view view-first">
@@ -230,8 +147,8 @@
     </div>
   </section>
 
-  <section id="section4">
-    <div class="container v-center">
+  <div id="section4">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1 class="text-center">Contact Me</h1>
@@ -241,38 +158,41 @@
 
       <%= flash[:notice] %>
       <%= form_tag("/static_pages/thank_you") do %>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-1">
-          <form name="contact_form" method="post" action="mail.php">
-            <div class="row form-group">
-              <div class="col-sm-4">
-                <%= label_tag :f_name, "First Name" %>
-                <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter First Name" %>
+
+        <div class="row">
+          <div class="col-md-8 col-md-offset-1">
+            <form name="contact_form" method="post" action="mail.php">
+              <div class="row form-group">
+                <div class="col-sm-4">
+                  <%= label_tag :f_name, "First Name" %>
+                  <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter First Name" %>
+                </div>
+                <div class="col-sm-4">
+                  <%= label_tag :l_name, "Last Name" %>
+                  <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter Last Name" %>
+                </div>
               </div>
-              <div class="col-sm-4">
-                <%= label_tag :l_name, "Last Name" %>
-                <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter Last Name" %>
+              <div class="row form-group">
+                <div class="col-sm-8">
+                  <%= label_tag :email, "Email Address" %>
+                  <%= text_field_tag :email, nil, class: "form-control", placeholder: "Enter Email" %>
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-sm-8">
+                  <%= label_tag :message, "Message" %>
+                  <%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message" %>
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-sm-10">
+                  <%= submit_tag "Send", class: "btn btn-success" %>
+                </div>
               </div>
             </div>
-            <div class="row form-group">
-              <div class="col-sm-8">
-                <%= label_tag :email, "Email Address" %>
-                <%= text_field_tag :email, nil, class: "form-control", placeholder: "Enter Email" %>
-              </div>
-            </div>
-            <div class="row form-group">
-              <div class="col-sm-8">
-                <%= label_tag :message, "Message" %>
-                <%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message" %>
-              </div>
-            </div>
-            <div class="row form-group">
-              <div class="col-sm-10">
-                <%= submit_tag "Send", class: "btn btn-success" %>
-              </div>
-            </div>
-          </div>
-        <% end %>
+
+      <% end %>
+
         <div class="col-md-3 pull-right">
           <address>
             <strong>Address</strong><br>
@@ -287,25 +207,24 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="container-fluid" id="section5">
+  <footer id="section5">
     <div class="row">
-        <!--fontawesome icons-->
         <div class="col-sm-4 col-xs-4" id="footer_signature">
-        Designed by Jimmy Adames
+          Jimmy Adames &copy; 2016
         </div>
         <div class="col-sm-1 col-sm-offset-4 col-xs-4">
-            <a href="https://github.com/adamesj"><i class ="fa fa-github fa-4x" id="footer_icons"></i></a>
+            <a href="https://github.com/adamesj"><i class ="fa fa-github fa-2x" id="footer_icons"></i></a>
         </div>
         <div class="col-sm-1 col-xs-4">
-            <a href="https://www.facebook.com/jimmy.adames.9"><i class="fa fa-facebook fa-4x" id="footer_icons"></i></a>
+            <a href="https://www.facebook.com/jimmy.adames.9"><i class="fa fa-facebook fa-2x" id="footer_icons"></i></a>
         </div>
         <div class="col-sm-1 col-xs-4">
-            <a href="https://twitter.com/Intricatelyme"><i class="fa fa-twitter fa-4x" id="footer_icons"></i></a>
+            <a href="https://twitter.com/Intricatelyme"><i class="fa fa-twitter fa-2x" id="footer_icons"></i></a>
         </div>
         <div class="col-sm-1 col-xs-4">
-            <a href="https://www.linkedin.com/in/jimmy-adames-75297338"><i class="fa fa-linkedin fa-4x" id="footer_icons"></i></a>
+            <a href="https://www.linkedin.com/in/jimmy-adames-75297338"><i class="fa fa-linkedin fa-2x" id="footer_icons"></i></a>
         </div>
     </div>
-  </section>
+  </footer>
